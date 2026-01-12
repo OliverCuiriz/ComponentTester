@@ -429,7 +429,6 @@ void prueba_reguladores() {
     u8g2.drawStr(0, 64, mensaje_medicion);
 }
 
-// Helpers para compuertas lógicas (comentarios originales preservados)
 void defaultt() {
   pinMode(Pin1Compuerta, OUTPUT);
   pinMode(Pin2Compuerta, OUTPUT);
