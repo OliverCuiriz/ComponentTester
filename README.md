@@ -13,9 +13,8 @@ The project consists of an electronic component tester capable of evaluating up 
 - **Motors:** SG90 / MOT1XX servo motors and 28BYJ-48 stepper motor  
 - **Other components:** resistors and capacitors  
 
+## Repository structure
 
-## Electric diagram
+This repository is organized into folders that contain all the resources related to the project. These include the firmware source code, the electrical schematic, the PCB design files, the 3D models of the mechanical structure, and the graphical assets used for the user interface menu.
 
-
-<img width="27498" height="21249" alt="Circuito" src="https://github.com/user-attachments/assets/042365a3-a18b-4322-a700-3466e650f4b7" />
 
