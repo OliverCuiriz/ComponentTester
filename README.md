@@ -17,4 +17,5 @@ The project consists of an electronic component tester capable of evaluating up 
 ## Electric diagram
 
 
+<img width="27498" height="21249" alt="Circuito" src="https://github.com/user-attachments/assets/042365a3-a18b-4322-a700-3466e650f4b7" />
 
