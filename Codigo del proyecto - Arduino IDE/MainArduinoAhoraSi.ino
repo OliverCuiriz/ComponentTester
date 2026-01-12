@@ -651,7 +651,6 @@ void pruebaNAND() {
         }
     }
 
-    // Dibujo (tus setCursor originales intactos)
     u8g2.setFont(u8g2_font_5x7_tf);
     u8g2.setCursor(35, 25);
     if (mostrando_resultado) {
