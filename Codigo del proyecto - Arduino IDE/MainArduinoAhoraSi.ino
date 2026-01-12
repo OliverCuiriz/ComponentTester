@@ -1872,7 +1872,6 @@ if (!initDone) {
     if (isStable(lastStable, avg)) {
       // Se mantiene el valor estable
     } else {
-      // El valor cambió → actualizar valor estable
       lastStable = avg;
     }
 
@@ -1914,7 +1913,7 @@ if (!initDone) {
 
     Serial.println(_buffer);
 
-  delay(5); // Muy pequeño para obtener muchas muestras rápidamente
+  delay(5); 
 }
 
 void ch_select(byte n) {
