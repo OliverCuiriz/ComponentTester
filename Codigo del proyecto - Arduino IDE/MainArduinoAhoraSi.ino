@@ -884,7 +884,6 @@ void pruebaNOT() {
         }
     }
 
-    // Dibujo (tus setCursor originales intactos)
     u8g2.setFont(u8g2_font_5x7_tf);
     u8g2.setCursor(35, 25);
     if (mostrando_resultado) {
@@ -1019,7 +1018,6 @@ void pruebaAND() {
         }
     }
 
-    // Dibuja resultados continuamente (tus setCursor originales intactos)
     u8g2.setFont(u8g2_font_5x7_tf);
     u8g2.setCursor(35, 25);
     if (mostrando_resultado) {
@@ -1139,7 +1137,6 @@ void pruebaOR() {
         }
     }
 
-    // Dibujo (tus setCursor originales intactos)
     u8g2.setFont(u8g2_font_5x7_tf);
     u8g2.setCursor(35, 25);
     if (mostrando_resultado) {
@@ -1259,7 +1256,6 @@ void pruebaXOR() {
         }
     }
 
-    // Dibujo (tus setCursor originales intactos)
     u8g2.setFont(u8g2_font_5x7_tf);
     u8g2.setCursor(35, 25);
     if (mostrando_resultado) {
@@ -1297,7 +1293,7 @@ void prueba_servomotor() {
     static int angulo = 0;
     static int direccion = 1;  // 1 = subiendo, -1 = bajando
     static unsigned long ultimo_muestreo = 0;
-    const unsigned long intervalo_muestreo = 20;  // Velocidad suave (15ms por grado)
+    const unsigned long intervalo_muestreo = 20;  //(20ms por grado)
 
     unsigned long tiempo_actual = millis();
 
