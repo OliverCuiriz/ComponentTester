@@ -20,7 +20,7 @@
 
 //SWITCHES CHERRY MX
 #define BOTON_UP_PIN 18     // INT4
-#define BOTON_SELECT_PIN 2  // INT0 - ahora usamos pin 2 para interrupción
+#define BOTON_SELECT_PIN 2  // INT0
 #define BOTON_DOWN_PIN 19   // INT5
 
 //CONMUTADOR
