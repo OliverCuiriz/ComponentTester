@@ -1999,7 +1999,7 @@ void inicializarOLED() {
     for (int i = 0; i < 10; i++) {
         u8g2.begin();
 
-        // Reset lógico del SSD1306
+        // Reset lógico del SSD1309
         u8g2.sendF("c", 0xAE); // Display OFF
         u8g2.sendF("c", 0xA8); // Set multiplex ratio
         u8g2.sendF("c", 0x3F); // 1/64 duty
