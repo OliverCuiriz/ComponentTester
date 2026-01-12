@@ -769,7 +769,7 @@ void pruebaNOR() {
         }
     }
 
-    // Dibujo (tus setCursor originales intactos)
+
     u8g2.setFont(u8g2_font_5x7_tf);
     u8g2.setCursor(35, 25);
     if (mostrando_resultado) {
@@ -829,7 +829,6 @@ void pruebaNOT() {
     } else {
         // Prueba normal
         if (tiempo_actual - ultimo_muestreo >= 1) {
-            // Entradas para NOT (solo HIGH o LOW)
             bool input = (combo == 0) ? LOW : HIGH;
 
             digitalWrite(Pin1Compuerta, input);  
