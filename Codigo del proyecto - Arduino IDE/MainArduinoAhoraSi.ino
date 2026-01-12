@@ -1426,7 +1426,7 @@ void prueba_555() {
     if (fase_medicion == 1) {
         duracionAlta = pulseIn(D41, HIGH, 50000);  // Timeout corto 50ms
         if (duracionAlta == 0) {
-            // No llegó pulso HIGH → sin señal
+            // No llegó pulso HIGH, sin senal
             frecuencia = 0.0;
             estado = "Sin senal";
             fase_medicion = 0;
