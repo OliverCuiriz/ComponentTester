@@ -1792,13 +1792,12 @@ uint32_t res;
 const uint32_t res_table[5] = {75, 1000, 10000, 100000, 470000};
 char _buffer[12];
 
-// ----------- FILTRO TIPO MULTÍMETRO -------------
-const byte N_SAMPLES = 20;           // Ventana de promedio
+const byte N_SAMPLES = 20;          
 float sampleBuffer[N_SAMPLES];
 byte sampleIndex = 0;
 bool bufferFilled = false;
 
-float lastStable = 0;                // Valor estable mostrado
+float lastStable = 0;              
 unsigned long lastUpdate = 0;
 const unsigned long UPDATE_RATE = 250;  // 0.25 segundos
 
