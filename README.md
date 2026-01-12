@@ -12,3 +12,9 @@ The project consists of an electronic component tester capable of evaluating up 
 - **Integrated circuits:** NE555 and LM741  
 - **Motors:** SG90 / MOT1XX servo motors and 28BYJ-48 stepper motor  
 - **Other components:** resistors and capacitors  
+
+
+## Electric diagram
+
+<img width="27498" height="21249" alt="Circuito" src="https://github.com/user-attachments/assets/7b981019-55f8-4183-a810-b84c2f3562d9" />
+
