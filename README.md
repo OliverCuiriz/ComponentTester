@@ -1,6 +1,6 @@
 # Component Tester – Proyecto de residencia profesional
 
-Este repositorio contiene mi **proyecto de residencia profesional: Dispositivo para el diagnóstico y medición de componentes electrónicos**, desarrollado en el *Instituto Tecnológico de Tijuana* para el **CETis No. 58**.
+Este repositorio contiene mi **proyecto de residencia profesional: Dispositivo para el diagnóstico y medición de componentes electrónicos**, desarrollado en el **Instituto Tecnológico de Tijuana** para el **CETis No. 58**.
 
 El proyecto consiste de un probador de componentes electrónicos capaz de evaluar hasta **20 familias de componentes**, proporcionando información del estado de cada componente. El sistema está diseñado para apoyar el trabajo educativo y práctico en los estudiantes de electrónica en el CETis No. 58, permitiendo a los usuarios verificar el correcto funcionamiento de sus componentes electrónicos utilizados en sus prácticas de laboratorio.
 
