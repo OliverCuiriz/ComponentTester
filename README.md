@@ -28,9 +28,9 @@ Este repositorio está organizado en carpetas individuales que contienen todos l
 - Debido a un bug con los botones para navegar en el menú, se tiene que hacer un puente entre el pin 17 y pin 2 del ATmega2560. Esto se ve reflejado en el codigo fuente del proyecto pero no en el diseño de la PCB actual.
 - El conector JST XH2.54 macho que se utiliza para el motor a pasos 28BYJ-48 está al revés en el diseño de la PCB.
 
-
-
 **Ambos errores se pueden corregir modificando directamente la PCB en KiCad y generar otro diseño.** Si se quisiera fabricar la PCB tal y como está entonces se tienen que hacer esas dos modificaciones.
+
+## Fotografía del proyecto
 
 <img width="1280" height="959" alt="20251230_010616-Photoroom" src="https://github.com/user-attachments/assets/cffd68cd-df20-4588-87f6-601db9976273" />
 
