@@ -9,7 +9,7 @@ El proyecto consiste de un probador de componentes electrónicos capaz de evalua
 
 - **Compuertas lógicas:** 74LS00 (NAND), 74LS02 (NOR), 74LS04 (NOT), 74LS08 (AND), 74LS32 (OR) y 74LS86 (XOR)
 - **Reguladores de voltaje lineales:** LM317, LM337, LM7805, LM7812 y LM7912  
-- **Diodos:** diodos rectificadores (familia 1N400x), LEDs and diodos Schottky 
+- **Diodos:** diodos rectificadores (familia 1N400x), LEDs y diodos Schottky 
 - **Temporizador y OpAmp:** NE555 y LM741  
 - **Motores:** servomotores SG90 / MOT1XX  y motor a pasos unipolar 28BYJ-48 
 - **Otros componentes:** resistencias y capacitores
