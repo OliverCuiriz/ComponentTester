@@ -21,7 +21,14 @@ Este repositorio está organizado en carpetas individuales que contienen todos l
 ### Para abrir estos archivos se necesita el siguiente software:
 - **Arduino IDE 2.6.3** recomendable
 - **KiCad 9**
-- **SolidWorks 2022** o bien, cualquier software que pueda abrir archivos con extensión **.STL**
-- **Photopea** o en su defecto, **Photoshop**
+- **SolidWorks 2022**, o bien, cualquier software que pueda abrir archivos con extensión **.STL**
+- **Photopea**, o bien, **Photoshop**
+
+## Advertencias importante:
+-Debido a un bug con los botones para navegar en el menú, se tiene que hacer un puente entre el pin 17 y pin 2 de del ATmega2560. Esto se ve reflejado en el codigo fuente del proyecto pero no en el diseño de la PCB.
+-El conector JST XH2.54 macho que se utiliza para el motor a pasos 28BYJ-48 está al revés en el diseño de la PCB.
+
+**Ambos errores se pueden corregir modificando directamente la PCB en KiCad y generar otro diseño.** Si se quisiera fabricar la PCB tal y como está entonces se tienen que hacer esas dos modificaciones.
+
 
 
